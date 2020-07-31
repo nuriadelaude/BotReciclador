@@ -43,6 +43,13 @@ Nuestro plan de escalabilidad contempla los siguientes puntos:
 
 "Pequeñas acciones multiplicadas por millones de personas, pueden cambiar el mundo"
                                                                             Howard Zinn.
+                                                                            
+Queremos hacer un agradecimiento especial a Libardo Lara quien nos ayudó y brindó su experiencia para poder hacer de este proyecto una realidad. También nuestros mentores: 
+Luisa Fernanda Henao, Kevin Guido, Gina Barrera, Ricardo Andres Urrego Arias. ¡Gracias!
+                                                                            
+                                                                           
+                                                                           
+                                                                         
 
 
 
