@@ -39,7 +39,7 @@ Nuestro plan de escalabilidad contempla los siguientes puntos:
 
 1) Con los datos que tenemos más los que obtengamos de cada usuario (por ejemplo, ubicación y tipo de materiales que recicla, siempre manteniendo esto anónimo) crear estadísticas. A traves de las estadísticas poder generar vínculos con centros de reciclaje de la Ciudad o el Ministerio de Medio Ambiente a los fines de utilizar estos datos para: poner más puntos de reciclaje, alertas de llenado de puntos de reciclaje para hacer una recolección más eficiente y evitar la acumulación de basura en estos lugares. 
 
-También lograr una alianza con organizaciones no gubernamentales dedicadas al reciclaje a los fines de que a traves de nuestra aplicación puedan brindar más concientización, información y capacitación. Podríamos generar alertas de cursos y capacitaciones brindadas por estas organizaciones. Y entre todos contribuir para lograr un Medio Ambiente más sano. 
+2) Por otro lado, lograr una alianza con organizaciones no gubernamentales dedicadas al reciclaje a los fines de que a traves de nuestra aplicación puedan brindar más concientización, información y capacitación. Podríamos generar alertas de cursos y capacitaciones brindadas por estas organizaciones. Y entre todos contribuir para lograr un Medio Ambiente más sano. 
 
 
 
