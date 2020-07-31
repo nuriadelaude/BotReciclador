@@ -12,15 +12,15 @@ Luego creamos una base de datos (Cloudant) que nos permite guardar la informaci�
 
 Esta es solo una de las funciones de nuestro bot. También cuenta con la capacidad de: si el usuario no quiere enviar una imagen puede ingresar su pregunta relacionada a reciclaje y el bot será capaz de diferenciar cada clase para luego brindarle información sobre ella, por ejemplo, ¿es el plástico reciclable?
 
-<img src="/nuriadelaude/BotReciclador/blob/master/docs/preguntas_reciclaje_wa.PNG">
+<img src="https://github.com/nuriadelaude/BotReciclador/blob/master/docs/preguntas_reciclaje_wa.PNG">
 
 Por otro lado, si le brindamos nuestra ubicación (por ahora solo disponible para Capital Federal, Buenos Aires) nos puede decir que puntos de reciclaje tenemos cerca y su dirección.
 
-<img src="/nuriadelaude/BotReciclador/blob/master/docs/punto_verde.PNG">
+<img src="https://github.com/nuriadelaude/BotReciclador/blob/master/docs/punto_verde.PNG">
 
 Así mismo también le podemos pedir información sobre los días de apertura y horarios del punto de reciclaje.
 
-<img src="/nuriadelaude/BotReciclador/blob/master/docs/dias_y_horarios.PNG">
+<img src="https://github.com/nuriadelaude/BotReciclador/blob/master/docs/dias_y_horarios.PNG">
 
 Finalmente integramos el asistente con Facebook para que sea accesible por cualquier usuario. 
 
