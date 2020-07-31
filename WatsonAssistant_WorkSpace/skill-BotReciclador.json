@@ -4,61 +4,16 @@
       "intent": "General_Ending",
       "examples": [
         {
-          "text": "Bye"
-        },
-        {
-          "text": "Usted es maravilloso. Gracias por su ayuda."
-        },
-        {
-          "text": "Un saludo."
+          "text": "Qué tengas una buena tarde."
         },
         {
           "text": "¡Salud!"
         },
         {
-          "text": "Qué tengas una buena tarde."
+          "text": "Un saludo."
         },
         {
-          "text": "Qué te lo pases bien."
-        },
-        {
-          "text": "OK, eso es todo lo que necesito saber."
-        },
-        {
-          "text": "No tengo más dudas, gracias por tu ayuda."
-        },
-        {
-          "text": "Nos vemos."
-        },
-        {
-          "text": "¡Muchas gracias, adiós!"
-        },
-        {
-          "text": "Hablaremos más tarde."
-        },
-        {
-          "text": "Hablamos luego."
-        },
-        {
-          "text": "Gracias por tu ayuda, hasta luego."
-        },
-        {
-          "text": "Gracias, podemos cerrar esta conversación."
-        },
-        {
-          "text": "Gracias no necesito más ayuda."
-        },
-        {
-          "text": "Fue agradable hablar contigo."
-        },
-        {
-          "text": "Eso ha sido todo lo que me hacía falta."
-        },
-        {
-          "text": "Cuídate!"
-        },
-        {
-          "text": "Buenas tardes."
+          "text": "Usted es maravilloso. Gracias por su ayuda."
         },
         {
           "text": "Vaya usted con Diós!"
@@ -70,7 +25,52 @@
           "text": "Chau"
         },
         {
+          "text": "Bye"
+        },
+        {
           "text": "Adios"
+        },
+        {
+          "text": "Fue agradable hablar contigo."
+        },
+        {
+          "text": "Gracias no necesito más ayuda."
+        },
+        {
+          "text": "Gracias, podemos cerrar esta conversación."
+        },
+        {
+          "text": "Buenas tardes."
+        },
+        {
+          "text": "Gracias por tu ayuda, hasta luego."
+        },
+        {
+          "text": "Cuídate!"
+        },
+        {
+          "text": "Eso ha sido todo lo que me hacía falta."
+        },
+        {
+          "text": "Hablamos luego."
+        },
+        {
+          "text": "Hablaremos más tarde."
+        },
+        {
+          "text": "¡Muchas gracias, adiós!"
+        },
+        {
+          "text": "Nos vemos."
+        },
+        {
+          "text": "No tengo más dudas, gracias por tu ayuda."
+        },
+        {
+          "text": "OK, eso es todo lo que necesito saber."
+        },
+        {
+          "text": "Qué te lo pases bien."
         }
       ],
       "description": "Fin de la conversacion."
@@ -79,7 +79,7 @@
       "intent": "Enviar_Foto",
       "examples": [
         {
-          "text": "opcion foto"
+          "text": "foto"
         },
         {
           "text": "primera opcion, foto"
@@ -88,13 +88,13 @@
           "text": "opcion imagen"
         },
         {
+          "text": "opcion foto"
+        },
+        {
           "text": "vamos con la foto"
         },
         {
           "text": "quiero enviar una imagen"
-        },
-        {
-          "text": "foto"
         },
         {
           "text": "imagen"
@@ -118,10 +118,34 @@
           "text": "hola de nuevo"
         },
         {
-          "text": "opciones"
+          "text": "volver"
         },
         {
-          "text": "volver"
+          "text": "opciones"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Organico_Compost",
+      "examples": [
+        {
+          "text": "naranja que hago?"
+        },
+        {
+          "text": "¿que puedo hacer con las frutas?"
+        },
+        {
+          "text": "¿que hago con las verduras?"
+        },
+        {
+          "text": "¿puedo reciclar verduras?"
+        },
+        {
+          "text": "que hago con una cascara de banana"
+        },
+        {
+          "text": "frutilla"
         }
       ],
       "description": ""
@@ -129,6 +153,9 @@
     {
       "intent": "General_Connect_to_RecicleCenter",
       "examples": [
+        {
+          "text": "¿Hay un número que pueda usar para contactar los puntos de reciclaje y hablar directamente con un agente?"
+        },
         {
           "text": "Ayudame a ponerme en contacto con una persona."
         },
@@ -142,22 +169,19 @@
           "text": "Hola, ¿podría transferirme al agente vivo, por favor?"
         },
         {
-          "text": "¿Puedes ayudarme a conectar con un centro de reciclaje?"
+          "text": "¿Puede enviarme un número telefónico para que hable con un representante humano del centro de reciclaje?"
         },
         {
-          "text": "¿Donde puedo llevar esto para que lo reciclen?"
+          "text": "¿Puedes ayudarme a conectar con un centro de reciclaje?"
         },
         {
           "text": "¿Donde lo llevo?"
         },
         {
+          "text": "¿Donde puedo llevar esto para que lo reciclen?"
+        },
+        {
           "text": "Deseo hablar con un centro de reciclaje"
-        },
-        {
-          "text": "¿Puede enviarme un número telefónico para que hable con un representante humano del centro de reciclaje?"
-        },
-        {
-          "text": "¿Hay un número que pueda usar para contactar los puntos de reciclaje y hablar directamente con un agente?"
         }
       ],
       "description": "Solicitar un punto de reciclaje"
@@ -232,7 +256,16 @@
       "intent": "General_Human_or_Bot",
       "examples": [
         {
-          "text": "Hablo con una máquina?"
+          "text": "Podría hablar con un agente virtual?"
+        },
+        {
+          "text": "Preferiría hablar con un agente virutal."
+        },
+        {
+          "text": "PPuedes decirme, si eres vivo o virtual?"
+        },
+        {
+          "text": "Tu eres un agente virtual o real?"
         },
         {
           "text": "Quiero saber si eres real o no"
@@ -247,22 +280,13 @@
           "text": "Eres un operador virtual o vivo?"
         },
         {
-          "text": "Me confirmas si hablo con un agente virtual o con un agente real?"
-        },
-        {
-          "text": "Podría hablar con un agente virtual?"
-        },
-        {
-          "text": "Preferiría hablar con un agente virutal."
-        },
-        {
-          "text": "PPuedes decirme, si eres vivo o virtual?"
-        },
-        {
-          "text": "Tu eres un agente virtual o real?"
+          "text": "Hablo con una máquina?"
         },
         {
           "text": "Hablo con una persona?"
+        },
+        {
+          "text": "Me confirmas si hablo con un agente virtual o con un agente real?"
         }
       ],
       "description": "Preguntar si habla con un humano o un bot."
@@ -271,43 +295,7 @@
       "intent": "General_Negative_Feedback",
       "examples": [
         {
-          "text": "No puede ser!"
-        },
-        {
-          "text": "No te mereces este trabajo."
-        },
-        {
-          "text": "Nunca me has ayudado."
-        },
-        {
-          "text": "Tu comportamiento es inexcusable."
-        },
-        {
           "text": "Voy a quejarme."
-        },
-        {
-          "text": "Lo que me estás diciendo es muy frustrante."
-        },
-        {
-          "text": "Me has proporcionado la información errónea."
-        },
-        {
-          "text": "No estoy de acuerdo."
-        },
-        {
-          "text": "No me has dicho la verdad."
-        },
-        {
-          "text": "No me lo creo."
-        },
-        {
-          "text": "No me trates así."
-        },
-        {
-          "text": "Cómo te atreves a tratarme de este modo?"
-        },
-        {
-          "text": "El agente era maldispuesto."
         },
         {
           "text": "El comportamiento del agente era inapropiado."
@@ -329,6 +317,42 @@
         },
         {
           "text": "La peor experiencia que he tenido en mi vida con un agente."
+        },
+        {
+          "text": "Lo que me estás diciendo es muy frustrante."
+        },
+        {
+          "text": "Me has proporcionado la información errónea."
+        },
+        {
+          "text": "No estoy de acuerdo."
+        },
+        {
+          "text": "No me has dicho la verdad."
+        },
+        {
+          "text": "No me lo creo."
+        },
+        {
+          "text": "Cómo te atreves a tratarme de este modo?"
+        },
+        {
+          "text": "El agente era maldispuesto."
+        },
+        {
+          "text": "No me trates así."
+        },
+        {
+          "text": "No puede ser!"
+        },
+        {
+          "text": "No te mereces este trabajo."
+        },
+        {
+          "text": "Nunca me has ayudado."
+        },
+        {
+          "text": "Tu comportamiento es inexcusable."
         }
       ],
       "description": "Expresar comentarios desfavorables."
@@ -336,12 +360,6 @@
     {
       "intent": "Reduccion_Residuos",
       "examples": [
-        {
-          "text": "cual es la clave para usar menos plastico"
-        },
-        {
-          "text": "como dejo de contaminar?"
-        },
         {
           "text": "como utilizo menos productos no reutilizables"
         },
@@ -353,6 +371,12 @@
         },
         {
           "text": "se puede usar menos plastico? me das un consejo?"
+        },
+        {
+          "text": "cual es la clave para usar menos plastico"
+        },
+        {
+          "text": "como dejo de contaminar?"
         }
       ],
       "description": ""
@@ -361,61 +385,61 @@
       "intent": "General_Positive_Feedback",
       "examples": [
         {
-          "text": "El agente era muy amable y resolvió mi problema inmediatamente."
-        },
-        {
-          "text": "El mejor soporte."
-        },
-        {
-          "text": "Eres el mejor."
-        },
-        {
-          "text": "Eres muy profesional."
-        },
-        {
-          "text": "Espero que me atiendas también la próxima vez."
-        },
-        {
-          "text": "Estoy muy contento con su servicio."
-        },
-        {
-          "text": "Es un placer trabajar contingo."
+          "text": "Gracias por todo!"
         },
         {
           "text": "Excelente!"
         },
         {
-          "text": "Gracias."
+          "text": "Es un placer trabajar contingo."
         },
         {
-          "text": "Gracias por todo!"
+          "text": "Estoy muy contento con su servicio."
         },
         {
-          "text": "Me alegraste el día."
+          "text": "Espero que me atiendas también la próxima vez."
         },
         {
-          "text": "Me gustaría llenar la encuesta de satisfacción."
-        },
-        {
-          "text": "Me salvaste!"
-        },
-        {
-          "text": "Muchísimas gracias por tu ayuda!"
+          "text": "Eres muy profesional."
         },
         {
           "text": "Muy amable!"
         },
         {
-          "text": "Muy bien!"
+          "text": "Muchísimas gracias por tu ayuda!"
         },
         {
-          "text": "Perfecto!"
+          "text": "Me salvaste!"
+        },
+        {
+          "text": "Me gustaría llenar la encuesta de satisfacción."
+        },
+        {
+          "text": "Me alegraste el día."
+        },
+        {
+          "text": "Gracias."
+        },
+        {
+          "text": "El mejor soporte."
+        },
+        {
+          "text": "El agente era muy amable y resolvió mi problema inmediatamente."
+        },
+        {
+          "text": "Eres el mejor."
+        },
+        {
+          "text": "Siempre resuelves mis problemas, gracias."
         },
         {
           "text": "Siempre puedo contar con su ayuda."
         },
         {
-          "text": "Siempre resuelves mis problemas, gracias."
+          "text": "Perfecto!"
+        },
+        {
+          "text": "Muy bien!"
         }
       ],
       "description": "Expresar un sentimiento positivo o gratitud."
@@ -424,12 +448,6 @@
       "intent": "No_Se_Recicla",
       "examples": [
         {
-          "text": "como se si no es reciclable"
-        },
-        {
-          "text": "no reciclable"
-        },
-        {
           "text": "¿que hago si no es reciclable?"
         },
         {
@@ -437,6 +455,15 @@
         },
         {
           "text": "¿Cómo saber si un producto no es reciclable?"
+        },
+        {
+          "text": "como se si no es reciclable"
+        },
+        {
+          "text": "no reciclable"
+        },
+        {
+          "text": "¿es reciclable la esponja de la cocina?"
         }
       ],
       "description": ""
@@ -445,10 +472,13 @@
       "intent": "aceptar",
       "examples": [
         {
-          "text": "vamos"
+          "text": "por supuesto"
         },
         {
-          "text": "genial"
+          "text": "si"
+        },
+        {
+          "text": "seguro"
         },
         {
           "text": "hagale"
@@ -457,19 +487,16 @@
           "text": "de una"
         },
         {
-          "text": "por supuesto"
-        },
-        {
           "text": "claro"
         },
         {
+          "text": "genial"
+        },
+        {
+          "text": "vamos"
+        },
+        {
           "text": "dale"
-        },
-        {
-          "text": "si"
-        },
-        {
-          "text": "seguro"
         }
       ],
       "description": ""
@@ -478,6 +505,12 @@
       "intent": "Dias_Y_Horarios",
       "examples": [
         {
+          "text": "quiero saber los días y horarios"
+        },
+        {
+          "text": "quiero saber más sobre los horarios"
+        },
+        {
           "text": "me gustaría más información sobre días"
         },
         {
@@ -485,12 +518,6 @@
         },
         {
           "text": "dias"
-        },
-        {
-          "text": "quiero saber los días y horarios"
-        },
-        {
-          "text": "quiero saber más sobre los horarios"
         }
       ],
       "description": ""
@@ -499,49 +526,31 @@
       "intent": "General_About_You",
       "examples": [
         {
-          "text": "¿Eres un representante oficial de conversación?"
-        },
-        {
-          "text": "Dónde estás ahora mismo?"
-        },
-        {
-          "text": "Estoy buscando una solución para mejorar mi compromiso con los clientes"
-        },
-        {
-          "text": "¿Hablas alemán?"
-        },
-        {
-          "text": "Me gustaría configurar el bot de conversación para mi negocio."
-        },
-        {
-          "text": "Tienes algún interés?"
-        },
-        {
-          "text": "Qué te gusta hacer en tu tiempo libre?"
-        },
-        {
-          "text": "Quiero entender cómo funcionas"
-        },
-        {
-          "text": "Quiero crear un agente virtual que hable portugués"
+          "text": "¿Puedo hacer mis preguntas usando Siri en lugar de esta aplicación?"
         },
         {
           "text": "Qué color tienen tus ojos?"
         },
         {
-          "text": "¿Puedo hacer mis preguntas usando Siri en lugar de esta aplicación?"
+          "text": "Tienes algún interés?"
         },
         {
-          "text": "Puedo hacerle algunas preguntas de validación de las ventas"
-        },
-        {
-          "text": "¿Puede explicarme la diferencia entre este sistema y cualquier otro?"
+          "text": "Quiero crear un agente virtual que hable portugués"
         },
         {
           "text": "¿Puede darme información general sobre usted?"
         },
         {
-          "text": "Me puedes decir como se llama la aplicación?"
+          "text": "¿Puede explicarme la diferencia entre este sistema y cualquier otro?"
+        },
+        {
+          "text": "Puedo hacerle algunas preguntas de validación de las ventas"
+        },
+        {
+          "text": "Quiero entender cómo funcionas"
+        },
+        {
+          "text": "Qué te gusta hacer en tu tiempo libre?"
         },
         {
           "text": "¿Con qué tipo de robot estoy interactuando?"
@@ -557,6 +566,24 @@
         },
         {
           "text": "Dime tu nombre completo."
+        },
+        {
+          "text": "Dónde estás ahora mismo?"
+        },
+        {
+          "text": "¿Eres un representante oficial de conversación?"
+        },
+        {
+          "text": "Estoy buscando una solución para mejorar mi compromiso con los clientes"
+        },
+        {
+          "text": "¿Hablas alemán?"
+        },
+        {
+          "text": "Me gustaría configurar el bot de conversación para mi negocio."
+        },
+        {
+          "text": "Me puedes decir como se llama la aplicación?"
         }
       ],
       "description": "Solicitar atributos personales genéricos."
@@ -565,13 +592,13 @@
       "intent": "negar",
       "examples": [
         {
-          "text": "no"
-        },
-        {
           "text": "mejor no"
         },
         {
           "text": "me arrepenti"
+        },
+        {
+          "text": "no"
         },
         {
           "text": "cancelar"
@@ -583,16 +610,16 @@
       "intent": "Puntos_Reciclaje",
       "examples": [
         {
-          "text": "puntos verdes en mi zona"
+          "text": "puntos de reciclaje en mi zona"
+        },
+        {
+          "text": "putnso de reciclaje"
         },
         {
           "text": "puntos verdes"
         },
         {
-          "text": "puntos de reciclaje en mi zona"
-        },
-        {
-          "text": "putnso de reciclaje"
+          "text": "puntos verdes en mi zona"
         }
       ],
       "description": ""
@@ -610,34 +637,34 @@
       "intent": "Donde_Vivo",
       "examples": [
         {
-          "text": "Soy de Núñez"
-        },
-        {
-          "text": "vivo en vicente lopez"
-        },
-        {
-          "text": "Vivo en Bariloche"
+          "text": "en GBA"
         },
         {
           "text": "pilar"
         },
         {
-          "text": "en GBA"
-        },
-        {
           "text": "BELGRANO"
         },
         {
-          "text": "Actualmente estoy viviendo en Rosario"
+          "text": "vivo en vicente lopez"
         },
         {
-          "text": "Necesito saber de un punto de reciclaje en Salta"
+          "text": "Soy de Núñez"
+        },
+        {
+          "text": "Soy de Córdoba Capital"
         },
         {
           "text": "Vivo en Rio Grande, ¿hay puntos verdes aquí?"
         },
         {
-          "text": "Soy de Córdoba Capital"
+          "text": "Necesito saber de un punto de reciclaje en Salta"
+        },
+        {
+          "text": "Vivo en Bariloche"
+        },
+        {
+          "text": "Actualmente estoy viviendo en Rosario"
         }
       ],
       "description": ""
@@ -646,10 +673,10 @@
       "intent": "finalizar_conversación",
       "examples": [
         {
-          "text": "terminar"
+          "text": "finalizar"
         },
         {
-          "text": "finalizar"
+          "text": "terminar"
         },
         {
           "text": "fin"
@@ -661,7 +688,16 @@
       "intent": "Pregunta_reciclaje",
       "examples": [
         {
-          "text": "¿Cómo reciclo papel?"
+          "text": "¿Se puede reciclar carton usado?"
+        },
+        {
+          "text": "que hago con el papel?"
+        },
+        {
+          "text": "quiero saber si el plastico es reciclable"
+        },
+        {
+          "text": "¿Qué hago con el cartón?"
         },
         {
           "text": "¿Cómo reciclo vidrio?"
@@ -670,19 +706,10 @@
           "text": "¿Se puede reciclar vidrio?"
         },
         {
-          "text": "¿Se puede reciclar carton usado?"
-        },
-        {
           "text": "¿Es posible reciclar metal?"
         },
         {
-          "text": "quiero saber si el plastico es reciclable"
-        },
-        {
-          "text": "que hago con el papel?"
-        },
-        {
-          "text": "¿Qué hago con el cartón?"
+          "text": "¿Cómo reciclo papel?"
         }
       ],
       "description": ""
@@ -700,6 +727,51 @@
       "intent": "General_Greetings",
       "examples": [
         {
+          "text": "Hola, amigo mío."
+        },
+        {
+          "text": "Hey, ¿cómo te va?"
+        },
+        {
+          "text": "¿Estás ahí?"
+        },
+        {
+          "text": "¡Estoy feliz de poder hablar contigo por primera vez!"
+        },
+        {
+          "text": "Buenos días, podemos empezar la conversación?"
+        },
+        {
+          "text": "¿Cómo está? / Oye, ¿Qué tal?"
+        },
+        {
+          "text": "Sigues aquí?"
+        },
+        {
+          "text": "Quién eres?"
+        },
+        {
+          "text": "Hola, Señor."
+        },
+        {
+          "text": "Hola, quien me puede atender?"
+        },
+        {
+          "text": "Hola ¿puedes ayudarme?"
+        },
+        {
+          "text": "Hola, Cómo va todo?"
+        },
+        {
+          "text": "Hola, ¿Cómo te sientes?"
+        },
+        {
+          "text": "Hola, ¿Cómo estás?"
+        },
+        {
+          "text": "Tienes un momento, por favor?"
+        },
+        {
           "text": "Hola"
         },
         {
@@ -712,52 +784,7 @@
           "text": "Holi"
         },
         {
-          "text": "Hey, ¿cómo te va?"
-        },
-        {
-          "text": "¿Estás ahí?"
-        },
-        {
-          "text": "¡Estoy feliz de poder hablar contigo por primera vez!"
-        },
-        {
-          "text": "¿Cómo está? / Oye, ¿Qué tal?"
-        },
-        {
-          "text": "Buenos días, podemos empezar la conversación?"
-        },
-        {
-          "text": "Hola, ¿Cómo estás?"
-        },
-        {
           "text": "Buenas noches."
-        },
-        {
-          "text": "Hola, ¿Cómo te sientes?"
-        },
-        {
-          "text": "Hola, Cómo va todo?"
-        },
-        {
-          "text": "Hola ¿puedes ayudarme?"
-        },
-        {
-          "text": "Hola, quien me puede atender?"
-        },
-        {
-          "text": "Hola, Señor."
-        },
-        {
-          "text": "Quién eres?"
-        },
-        {
-          "text": "Sigues aquí?"
-        },
-        {
-          "text": "Tienes un momento, por favor?"
-        },
-        {
-          "text": "Hola, amigo mío."
         },
         {
           "text": "Hola, Cómo estás el día de hoy?"
@@ -778,34 +805,7 @@
       "intent": "General_Agent_Capabilities",
       "examples": [
         {
-          "text": "¿Cómo funciona el filtro en la pantalla de capacidades?"
-        },
-        {
-          "text": "¿Con qué categorías de problemas están capaz de ayudarme?"
-        },
-        {
-          "text": "¿Con qué categorías de problemas me puedes ayudar?"
-        },
-        {
-          "text": "¿Cuáles son las opciones disponibles si estoy usando agente virtual?"
-        },
-        {
-          "text": "¿Podría darme una lista de temas con las que puede ayudarme?"
-        },
-        {
-          "text": "Tengo varios problemas y necesito saber con qué me puede ayudar."
-        },
-        {
-          "text": "Tengo algunos problemas y quiero algo de información sobre cómo conseguir ayuda."
-        },
-        {
-          "text": "¿Podría esperar un momento por favor?"
-        },
-        {
           "text": "¿Podría esperar un segundo por favor?"
-        },
-        {
-          "text": "¿Puedes ayudarme en cómo iniciar sesión en Virtual Agent?"
         },
         {
           "text": "¿Puedes darme una lista de temas de cosas con las que puedes ayudarme?"
@@ -836,6 +836,33 @@
         },
         {
           "text": "Tengo algunas preguntas y necesito ayuda, ¿puedo recibir ayuda?"
+        },
+        {
+          "text": "Tengo algunos problemas y quiero algo de información sobre cómo conseguir ayuda."
+        },
+        {
+          "text": "Tengo varios problemas y necesito saber con qué me puede ayudar."
+        },
+        {
+          "text": "¿Con qué categorías de problemas están capaz de ayudarme?"
+        },
+        {
+          "text": "¿Cómo funciona el filtro en la pantalla de capacidades?"
+        },
+        {
+          "text": "¿Con qué categorías de problemas me puedes ayudar?"
+        },
+        {
+          "text": "¿Cuáles son las opciones disponibles si estoy usando agente virtual?"
+        },
+        {
+          "text": "¿Podría darme una lista de temas con las que puede ayudarme?"
+        },
+        {
+          "text": "¿Podría esperar un momento por favor?"
+        },
+        {
+          "text": "¿Puedes ayudarme en cómo iniciar sesión en Virtual Agent?"
         }
       ],
       "description": "Solicitar capacidades del bot."
@@ -858,64 +885,64 @@
       "intent": "General_Security_Assurance",
       "examples": [
         {
-          "text": "Puede demostrarme que esta conversación es segura?"
-        },
-        {
-          "text": "¿Puede confirmarme si esa red es segura?"
-        },
-        {
-          "text": "¿Mi informacion personal de pago es manejada seguramente?"
-        },
-        {
-          "text": "Hola El usuario desea garantías de que cualquier información que proporciona en la conversación está protegida y segura."
-        },
-        {
-          "text": "Hay algunas precauciones contra los hackers?"
-        },
-        {
-          "text": "¿Qué medidas de seguridad están usadas para asegurar que este chat es seguro?"
-        },
-        {
-          "text": "Quisiera asegurarme que mis detalles de tarjeta están seguros, ¿puedes hacerlo?"
-        },
-        {
-          "text": "¿Puedo estar seguro que mi información de tarjeta guardada está cifrada y asegurada?"
-        },
-        {
-          "text": "Qué tipos de medidas se han tomado para proteger esta conversación?"
-        },
-        {
-          "text": "Qué sistemas de protección usan contra los hackers?"
-        },
-        {
-          "text": "¿Hay alguna razón para desconfiar de este chat?"
-        },
-        {
-          "text": "Es esto un chat oficial?"
-        },
-        {
-          "text": "¿Dónde puedo encontrar su certificado de seguridad?"
-        },
-        {
-          "text": "Cómo sé que este chat no es una estafa?"
-        },
-        {
-          "text": "¿Cómo saber que puedo confiar en la información obtenida en esta chat sesión?"
-        },
-        {
           "text": "¿Cómo reconzco si su página web es confiable?"
         },
         {
           "text": "¿Cómo puedo garantizar la protección de la información de los consumidores?"
         },
         {
-          "text": "¿Puedo confiar en todo lo que leo en este chat?"
-        },
-        {
           "text": "¿Cómo puede asegurar que nuestra conversación por chat es confidencial?"
         },
         {
+          "text": "Hola El usuario desea garantías de que cualquier información que proporciona en la conversación está protegida y segura."
+        },
+        {
+          "text": "¿Mi informacion personal de pago es manejada seguramente?"
+        },
+        {
+          "text": "¿Puede confirmarme si esa red es segura?"
+        },
+        {
+          "text": "Puede demostrarme que esta conversación es segura?"
+        },
+        {
           "text": "¿Pueden asegurarme que toda la información de mi cuenta está protegida?"
+        },
+        {
+          "text": "¿Puedo confiar en todo lo que leo en este chat?"
+        },
+        {
+          "text": "Hay algunas precauciones contra los hackers?"
+        },
+        {
+          "text": "Quisiera asegurarme que mis detalles de tarjeta están seguros, ¿puedes hacerlo?"
+        },
+        {
+          "text": "¿Qué medidas de seguridad están usadas para asegurar que este chat es seguro?"
+        },
+        {
+          "text": "Qué sistemas de protección usan contra los hackers?"
+        },
+        {
+          "text": "Qué tipos de medidas se han tomado para proteger esta conversación?"
+        },
+        {
+          "text": "Cómo sé que este chat no es una estafa?"
+        },
+        {
+          "text": "¿Dónde puedo encontrar su certificado de seguridad?"
+        },
+        {
+          "text": "Es esto un chat oficial?"
+        },
+        {
+          "text": "¿Hay alguna razón para desconfiar de este chat?"
+        },
+        {
+          "text": "¿Puedo estar seguro que mi información de tarjeta guardada está cifrada y asegurada?"
+        },
+        {
+          "text": "¿Cómo saber que puedo confiar en la información obtenida en esta chat sesión?"
         }
       ],
       "description": "Expresar preocupaciones sobre la seguridad del bot."
@@ -1004,6 +1031,66 @@
       "fuzzy_match": true
     },
     {
+      "entity": "organico",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "otros_organicos",
+          "synonyms": [
+            "yerba",
+            "yerba mate",
+            "mate",
+            "cafe",
+            "te ",
+            "té",
+            "mate cocido",
+            "cascara de huevo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "frutas",
+          "synonyms": [
+            "banana",
+            "manzana",
+            "naranja",
+            "mandarina",
+            "frutilla",
+            "cereza",
+            "palta",
+            "limon",
+            "uvas",
+            "platano",
+            "granada",
+            "kiwi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "verduras",
+          "synonyms": [
+            "zapallo",
+            "zapallito",
+            "brocoli",
+            "lechuga",
+            "choclo",
+            "cebolla",
+            "rabanito",
+            "remolacha",
+            "morron",
+            "rucula",
+            "repollo",
+            "chaucha",
+            "papa",
+            "batata",
+            "mandioca",
+            "pepino"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
       "entity": "sys-date",
       "values": [],
       "fuzzy_match": true
@@ -1013,8 +1100,20 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Constitución",
+          "value": "San Telmo",
           "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Villa Crespo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "La Paternal",
+          "synonyms": [
+            "paternal"
+          ]
         },
         {
           "type": "synonyms",
@@ -1063,17 +1162,17 @@
         },
         {
           "type": "synonyms",
-          "value": "San Telmo",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
           "value": "Montserrat",
           "synonyms": [
             "Moncerrat",
             "montcerrat",
             "monserrat"
           ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Constitución",
+          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -1312,17 +1411,46 @@
           "type": "synonyms",
           "value": "Chacarita",
           "synonyms": []
-        },
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "manejo_especial_voluptuoso",
+      "values": [
         {
           "type": "synonyms",
-          "value": "Villa Crespo",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "La Paternal",
+          "value": "pilas",
           "synonyms": [
-            "paternal"
+            "baterias",
+            "batería"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "electrodomésticos",
+          "synonyms": [
+            "computadora",
+            "pc",
+            "televisor",
+            "tv",
+            "microondas",
+            "heladera",
+            "lavarropa",
+            "lava vajilla",
+            "aire acondicionado",
+            "freezer",
+            "secarropas",
+            "secarropa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sillón",
+          "synonyms": [
+            "sofa ",
+            "futon",
+            "futón"
           ]
         }
       ],
@@ -1333,21 +1461,36 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "metales no reciclables",
+          "value": "otros",
           "synonyms": [
-            "botes de pintura usados",
-            "contenian productos tóxicos",
-            "aerosoles"
+            "jeringas",
+            "pañales",
+            "toallas femeninas",
+            "toallas desmaquillantes"
           ]
         },
         {
           "type": "synonyms",
-          "value": "plásticos no reciclables",
+          "value": "cepillo de dientes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fruorescente",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "esponja de cocina",
           "synonyms": [
-            "degradados por el sol",
-            "contiene recinas",
-            "pigmentados"
+            "estropajo",
+            "esponja"
           ]
+        },
+        {
+          "type": "synonyms",
+          "value": "revista",
+          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -1359,52 +1502,14 @@
         },
         {
           "type": "synonyms",
-          "value": "vidrio no reciclable",
-          "synonyms": [
-            "bombillas",
-            "focos",
-            "Tubos fluorescentes",
-            "Espejos",
-            "lentes de sol"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "papel no reciclable",
-          "synonyms": [
-            "papel de fax",
-            "papel de calcar",
-            "celofán",
-            "papel de regalo",
-            "cinta adhesiva",
-            "vasos usados sin limpiar",
-            "papel de foto",
-            "etiquetas auto adhesivas"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "textiles no reciclables",
-          "synonyms": [
-            "contamindas con pintura",
-            "contaminada con "
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "esponja de cocina",
+          "value": "cerámica",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "cepillo de dientes",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "otros no reciclables",
+          "value": "aerosoles",
           "synonyms": [
-            "estropajo"
+            "desodorante"
           ]
         }
       ],
@@ -1498,6 +1603,145 @@
       "conditions": "@localidad",
       "event_name": "input",
       "dialog_node": "handler_10_1595945872606"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Debido a su posible contenido de bacterias por el uso, las esponjas principalmente de cocina no son reciclables. Te aconsejo comenzar a utilizar esponjas vegetales que luego pueden ser parte de tu compost. Además te cuento que podes tener una planta de esponjas vegetales ¿cool, no?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1596161663842",
+      "conditions": "@no_reciclables:(esponja de cocina)",
+      "dialog_node": "response_10_1596161996599",
+      "previous_sibling": "response_10_1596161693357"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estos al contenter otras sustancias que complican su reutilización es peferible que busques una opción reciclable."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1596161663842",
+      "conditions": "@no_reciclables:otros",
+      "dialog_node": "response_5_1596162186299",
+      "previous_sibling": "response_8_1596162385072"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El cristal no es reciclable, te recomiendo el vidrio <3"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1596161663842",
+      "conditions": "@no_reciclables:(cristal no reciclable)",
+      "dialog_node": "response_8_1596162385072",
+      "previous_sibling": "response_4_1596162311211"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Teniendo en cuenta que la ceramica no es reciclable es una buena opción para no utilizar plásticos de un solo uso. Podes tener una taza cerámica en la oficina, por ejemplo, y no tener que usar vasos descartables. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1596161663842",
+      "conditions": "@no_reciclables:cerámica",
+      "dialog_node": "response_4_1596162311211",
+      "previous_sibling": "response_8_1596162241478"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Los cepillos de dientes no son reciclables, pero podes utilizar cepillos de dientes hechos de bamboo. A mi me encantan, te lo recomiendo.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1596161663842",
+      "conditions": "@no_reciclables:(cepillo de dientes)",
+      "dialog_node": "response_3_1596162120852",
+      "previous_sibling": "response_10_1596161996599"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Los fluorescentes no son reciclables debido a su gran cantidad de tóxicos, una buena opción es utilizar luces led, además consumen menos energía lo que también ayuda al medio ambienter"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1596161663842",
+      "conditions": "@no_reciclables:fruorescente",
+      "dialog_node": "response_8_1596162241478",
+      "previous_sibling": "response_3_1596162120852"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Este tipo de residuo no se puede reciclar "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1596161663842",
+      "conditions": "@no_reciclables:aerosoles",
+      "dialog_node": "response_10_1596161693357"
     },
     {
       "type": "slot",
@@ -1609,7 +1853,7 @@
         "selector": "body",
         "dialog_node": "node_1_1595958792839"
       },
-      "conditions": "#negar",
+      "conditions": "#negar && #finalizar_conversación",
       "dialog_node": "node_6_1596132463958",
       "previous_sibling": "node_7_1596132394769"
     },
@@ -1651,7 +1895,7 @@
           {
             "values": [
               {
-                "text": "¿Sabías que único plástico no reutilizable es aquel que un \"7\" en su \"Código de Identificación del Plástico\"? Esto se debe a que son plásticos fabricados con la mezcla de varias resinas, entre ellas el policarbonato y el ABS (Acrilonitrilo Butadieno Estireno). Si no pertenece a ese grupo, podes juntar varias botellas y otros plásticos, para luego llevarlo a un punto de recolección."
+                "text": "El único plástico no reutilizable es aquel que un \"7\" en su \"Código de Identificación del Plástico\" Esto se debe a que son plásticos fabricados con la mezcla de varias resinas. Si no pertenece a ese grupo, podes juntar varias botellas y otros plásticos, para luego llevarlo a un punto de recolección. Recuerda que el plástico va en el contendor amarillo."
               }
             ],
             "response_type": "text",
@@ -1711,7 +1955,7 @@
           {
             "values": [
               {
-                "text": "¡Buenas noticias! Todo lo que sea de vidrio puede reciclarse. Hay que tener en cuenta dos cosas: intentar que el vidrio que llevemos al punto de reciclaje no este roto y que no sea cristal. Ya que este último tiene otro proceso de reciclaje. También es importante tener en cuenta separar las tapas, si son de metal: van con los metales y si son de plástico: van con los plásticos."
+                "text": "¡Buenas noticias! Todo lo que sea de vidrio puede reciclarse. Hay que tener en cuenta dos cosas: intentar que el vidrio que llevemos al punto de reciclaje no este roto y que no sea cristal. Ya que este último tiene otro proceso de reciclaje. También es importante tener en cuenta separar las tapas, si son de metal: van con los metales y si son de plástico: van con los plásticos.  Recuerda que el vidrio va en el contenedor verde."
               }
             ],
             "response_type": "text",
@@ -1731,7 +1975,7 @@
           {
             "values": [
               {
-                "text": "Estos metales: acero, aluminio, cobre, bronce, latón, plomo, oro, plata, etc, pueden reciclarse. Podes llevarlos a un centro de reciclaje o comunicarte con una organización que los reciba."
+                "text": "Estos metales: acero, aluminio, cobre, bronce, latón, plomo, oro, plata, etc, pueden reciclarse. Podes llevarlos a un centro de reciclaje o comunicarte con una organización que los reciba. Recuerda que los metales van en el contenedor amarillo."
               }
             ],
             "response_type": "text",
@@ -1791,7 +2035,7 @@
           {
             "values": [
               {
-                "text": "El papel (siempre que no sea encerado o parafinado, ni papel de fotos) podes transformarlo en papel reciclado o llevarlo a un punto de recolección de reciclables."
+                "text": "El papel (siempre que no sea encerado o parafinado, ni papel de fotos) podes transformarlo en papel reciclado o llevarlo a un punto de recolección de reciclables. Recuerda que este reciclable va en el contenedor color azul "
               }
             ],
             "response_type": "text",
@@ -1812,7 +2056,7 @@
           "mcr": true
         }
       },
-      "conditions": "#elegir_opcion_1",
+      "conditions": "#elegir_opcion_1 || #Puntos_Reciclaje",
       "dialog_node": "node_6_1595900604315"
     },
     {
@@ -1845,7 +2089,7 @@
           {
             "values": [
               {
-                "text": "1. Podes sacarle una foto y enviarmela así te puedo ayudar\n2. También puedo responder preguntas sobre productos reciclables y no reciclables\n3. Puedo darte algunos concejos para contaminar menos.\n4. Si lo deseas, podemos buscar un punto verde cerca tuyo para poder llevar tus reciclables"
+                "text": "1. Podes sacarle una foto y enviarmela así te puedo ayudar.\n2. También puedo responder preguntas sobre productos reciclables y no reciclables.\n3. Puedo darte algunos consejos para contaminar menos.\n4. Si lo deseas, podemos buscar un punto de reciclaje cerca tuyo."
               }
             ],
             "response_type": "text",
@@ -1865,6 +2109,21 @@
       "parent": "node_5_1595959483938",
       "conditions": "#volver_al_menu",
       "dialog_node": "node_5_1596057086337"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1596057389389",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1596161663842"
+      },
+      "conditions": "#No_Se_Recicla",
+      "dialog_node": "response_1_1596163154630",
+      "previous_sibling": "response_6_1596163110243"
     },
     {
       "type": "response_condition",
@@ -1894,6 +2153,21 @@
     {
       "type": "response_condition",
       "output": {
+        "generic": []
+      },
+      "parent": "node_9_1596057389389",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1595958792839"
+      },
+      "conditions": "#finalizar_conversación",
+      "dialog_node": "response_1_1596131438725",
+      "previous_sibling": "response_1_1596163154630"
+    },
+    {
+      "type": "response_condition",
+      "output": {
         "generic": [
           {
             "values": [
@@ -1912,7 +2186,7 @@
         "selector": "user_input",
         "dialog_node": "node_3_1595952945175"
       },
-      "conditions": "#Pregunta_reciclaje || #elegir_opcion_2",
+      "conditions": "#elegir_opcion_2",
       "dialog_node": "response_4_1596070474651",
       "previous_sibling": "response_5_1596057464667"
     },
@@ -1925,10 +2199,10 @@
       "next_step": {
         "behavior": "jump_to",
         "selector": "body",
-        "dialog_node": "node_1_1595958792839"
+        "dialog_node": "node_3_1595952945175"
       },
-      "conditions": "#finalizar_conversación",
-      "dialog_node": "response_1_1596131438725",
+      "conditions": "#Pregunta_reciclaje",
+      "dialog_node": "response_5_1596143960865",
       "previous_sibling": "response_2_1596061116517"
     },
     {
@@ -1958,6 +2232,21 @@
       "conditions": "#Reduccion_Residuos || #elegir_opcion_3",
       "dialog_node": "response_3_1596060525949",
       "previous_sibling": "response_4_1596070474651"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1596057389389",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1596162454479"
+      },
+      "conditions": "#Organico_Compost",
+      "dialog_node": "response_6_1596163110243",
+      "previous_sibling": "response_5_1596143960865"
     },
     {
       "type": "response_condition",
@@ -2014,6 +2303,53 @@
       "dialog_node": "node_6_1596061175956"
     },
     {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Tenemos una gran noticia!  Todos los residuos orgánicos son reciclables. ¿Cómo? Podes hacer un compost. Por si no lo sabes se trata de juntar cascaras de frutas, verduras y otros orgánicos para luego ponerlas en un envase grande junto a tus lombrices y así se convierte todo nuevamente en tierra fertilizada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1596162454479",
+      "dialog_node": "response_2_1596162715125",
+      "previous_sibling": "response_2_1596162473376"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Tenemos una gran noticia!  Todos los residuos orgánicos son reciclables. ¿Cómo? Podes hacer un compost. Por si no lo sabes se trata de juntar cascaras de frutas, verduras y otros orgánicos para luego ponerlas en un envase grande junto a tus lombrices y así se convierte todo nuevamente en tierra fertilizada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Otra opción es que juntes estos residuos por algunos días y luego en algún parque cercano o plaza, hagas un pequeño pozo y lo entierres. Así estás ayudando a todos los arboles y plantas. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1596162454479",
+      "conditions": "@organico",
+      "dialog_node": "response_2_1596162473376"
+    },
+    {
       "type": "standard",
       "title": "Pedir nombre",
       "output": {
@@ -2059,13 +2395,13 @@
     },
     {
       "type": "standard",
-      "title": "General_Seguridad",
+      "title": "Voluptuosos",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "La información que aquí compartas, no va a ser compartida con nadie más sin tu concentimiento. La seguridad de nuestros usuarios es lo más importante para mi y mis creadores, si tienes más dudas puedes escribirles al siguiente email: xxxxxxxx@gmail.com"
+                "text": "Estos por lo general debemos llevarlos a un lugar específico que los reciba. Las pilas por ejemplo pueden ir en el contenedor color rojo."
               }
             ],
             "response_type": "text",
@@ -2073,10 +2409,14 @@
           }
         ]
       },
-      "conditions": "#General_Security_Assurance",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_7_1595964750643",
-      "previous_sibling": "node_5_1596132074876"
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1596132074876"
+      },
+      "conditions": "@manejo_especial_voluptuoso",
+      "dialog_node": "node_7_1596163836002",
+      "previous_sibling": "node_4_1596161663842"
     },
     {
       "type": "standard",
@@ -2098,6 +2438,40 @@
       "conditions": "#finalizar_conversación || #General_Ending",
       "digress_in": "does_not_return",
       "dialog_node": "node_1_1595958792839",
+      "previous_sibling": "node_5_1596132074876"
+    },
+    {
+      "type": "standard",
+      "title": "Organicos",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1596132074876"
+      },
+      "conditions": "#Organico_Compost",
+      "dialog_node": "node_8_1596162454479",
+      "previous_sibling": "node_7_1596163836002"
+    },
+    {
+      "type": "standard",
+      "title": "Pregunta_No_Reciclable",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1596132074876"
+      },
+      "conditions": "#No_Se_Recicla",
+      "dialog_node": "node_4_1596161663842",
       "previous_sibling": "node_3_1595952945175"
     },
     {
@@ -2138,11 +2512,16 @@
     },
     {
       "type": "standard",
-      "title": "Si_Quiere_Preguntar",
+      "title": "Pregunta_Reciclable",
       "metadata": {
         "_customization": {
           "mcr": true
         }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1596132074876"
       },
       "conditions": "#Pregunta_reciclaje",
       "digress_in": "does_not_return",
@@ -2246,6 +2625,27 @@
       "conditions": "true",
       "digress_in": "does_not_return",
       "dialog_node": "node_5_1596132074876",
+      "previous_sibling": "node_8_1596162454479"
+    },
+    {
+      "type": "standard",
+      "title": "General_Seguridad",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La información que aquí compartas, no va a ser compartida con nadie más sin tu concentimiento. La seguridad de nuestros usuarios es lo más importante para mi y mis creadores, si tienes más dudas puedes escribirles al siguiente email: xxxxxxxx@gmail.com"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Security_Assurance",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1595964750643",
       "previous_sibling": "node_10_1596133150812"
     },
     {
