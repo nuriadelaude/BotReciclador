@@ -6,8 +6,7 @@ A este asistente puede acceder cualquier persona con una cuenta de Facebook.
 
 Para llevar a cabo este proyecto primero comenzamos con Watson Assistant, creamos un Skill y le enseñamos a interactuar con el usuario. Luego en Visual Recognition creamos un modelo que clasifica imágenes en cuatro categorías: inorgánicos (reciclables), inorgánicos (no reciclables), voluminosos (o manejo especial) y orgánicos. Le cargamos imágenes y definimos cada categoría hasta que pudimos obtener un resultado certero en cada prueba.
 
-<img src="/nuriadelaude/BotReciclador/blob/master/docs/imagen.PNG">
-![Alt text](relative/path/to/imagen.png?raw=true "carga de imagen")
+<img src="https://github.com/nuriadelaude/BotReciclador/blob/master/docs/dias_y_horarios.PNG">
 
 Luego creamos una base de datos (Cloudant) que nos permite guardar la información que nos provee el usuario por un corto periodo de tiempo, para poder recibir la imagen, enviarla a visual recognition, que nos devuelva el resultado y finalmente lo reenvia al usuario. Cuando el usuario termina de la conversación, el documento generado es eliminado de la base de datos. 
 
