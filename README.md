@@ -1,5 +1,7 @@
 # BotReciclador
 
+<img src="https://github.com/nuriadelaude/BotReciclador/blob/master/docs/Nueva_imagen_de_mapa_de_bits.bmp">
+
 Este proyecto tiene como objetivo ayudar a todas las personas que deseen comenzar en el mundo del reciclaje o que tal vez ya lo hagan y necesiten ayuda. Así como también ayudar al problema mundial que tenemos con la cantidad de basura que genera cada persona. Tenemos que tener en cuenta que lo ideal es no utilizar materiales de un solo uso (bolsas, vasos descartables, cubiertos descartables) pero reciclando y separando estos materiales podemos hacer una diferencia importante.
 
 A este asistente puede acceder cualquier persona con una cuenta de Facebook. 
